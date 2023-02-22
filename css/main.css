@@ -1134,6 +1134,11 @@ border-radius: 2px;
     margin-top: 20px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .footer-container {
+    width: 1200px;
+  }
+}
 .backdrop {
   position: fixed;
   top: 0;
