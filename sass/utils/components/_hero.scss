@@ -1,3 +1,4 @@
+
 .hero {
   background: #C4C4C4;
   color: #ffff;
@@ -9,9 +10,23 @@
   padding-top: 200px;
   padding-bottom: 200px;
   max-width: 1600px;
-  margin: auto;
-    
+  margin: auto; 
   }
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../images/\ фон\ копія@2x.jpg);
+  }
+}
+
+@media (min-device-pixel-ratio: 1),
+  (min-resolution: 320dpi),
+  (min-resolution: 1dppx) {
+  .hero {
+    background-image: url(../images/\ фон\ копія@1x.jpg);
+  }
+
   .hero h1 {
     font-weight: 900;
     font-size: 44px;
@@ -47,4 +62,4 @@
       &:focus{
         color: $accent_color;
       }
-  }
+  }}

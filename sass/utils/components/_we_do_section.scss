@@ -41,3 +41,12 @@
     color: #ffff;
   
   }
+  @media screen and (min-width:100px) and (max-width:1199px)  {
+    .we_do_section {
+      display: none;
+    }
+    .we_do_section img{
+      display: none;
+    }
+  }
+  

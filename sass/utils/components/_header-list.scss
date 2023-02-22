@@ -1,3 +1,4 @@
+/*
 .header-list a:hover,
 .header-list a :focus {
   color:$accent_color;}
@@ -32,6 +33,7 @@
 }
 
 
+
 .header-list a.header-list__cap-studio {
   color: #2196f3;
 }
@@ -48,6 +50,8 @@ height: 4px;
 background: #2196F3;
 border-radius: 2px;
 }
+*/
+
 .header-list__cap-portfolio::after{
   content: '';
 position: absolute;
