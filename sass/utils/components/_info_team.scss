@@ -61,6 +61,9 @@
     .info_team .info_team__team-section:nth-child(2n) {
       margin-right: 0;;
     }
-
+    .info_team__team-section img{
+      display: block;
+      width: 354px;
+    }
   }
   @media screen and (min-width:1200px){}
