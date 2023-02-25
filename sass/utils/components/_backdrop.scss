@@ -280,3 +280,12 @@
       background-repeat:no-repeat;
     
     }
+    @media screen and (min-width:320px) and (max-width:480px){
+      .form{
+        padding: 20px 20px;
+      }
+      .form_text {
+        font-size: 19px;
+        padding-bottom: 20px;
+      }
+    }

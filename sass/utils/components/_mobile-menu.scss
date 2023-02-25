@@ -70,8 +70,8 @@ color: #212121;
   display:flex;
 }
 
-@media screen and (min-width:100px) {
-    
+
+  @media screen and (min-width:100px) {
     .hero {
         background: #C4C4C4;
         color: #ffff;
@@ -176,6 +176,17 @@ color: #212121;
        color: #757575;
    }
   
+  }
+  @media screen and (min-width:100px) and (max-width:480px) {
+    .line:first-child{
+      margin-left: 5px;
+    }
+    .mabile-menu_container{
+      padding: 5px;
+    }
+    .header-list_mobile{
+      margin-bottom: 290px;
+    }
   }
   /* +768px */
   @media screen and (min-width:768px) {
@@ -607,6 +618,4 @@ height: 4px;
 background: #2196F3;
 border-radius: 2px;
 }
-
-  
 }

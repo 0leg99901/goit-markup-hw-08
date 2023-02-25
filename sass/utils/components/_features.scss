@@ -21,7 +21,7 @@
     padding: 0;
     margin: 0;
     margin-bottom: 10px;
-    text-align: center;
+    
   }
   .features p {
     font-weight: 400;
@@ -53,11 +53,14 @@
     }
     .features li {
       width:100%;
- 
-      
+    }
+    .features h3 {
+    text-align: center;
     }
     .features li:not(:last-child) {
       margin-right: 30px;
+      margin-bottom: 30px;
+ 
     }
     
    
@@ -101,8 +104,10 @@
     .features li {
       width: 354px;
     }
+  
     .features li:not(:last-child) {
       margin-right:0;
+      margin-bottom: 30px;
     }
     .features .features-item:nth-child(2n) {
       margin-right: 0;
